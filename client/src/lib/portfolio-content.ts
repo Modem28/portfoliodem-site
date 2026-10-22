@@ -2,12 +2,12 @@
 // ตัวอย่างรูปแบบ URL: https://drive.google.com/file/d/FILE_ID/view
 // ตั้งสิทธิ์ไฟล์เป็น "ทุกคนที่มีลิงก์ — ผู้ดู" แล้วบันทึก/Build เวอร์ชันใหม่ เพื่อให้ผู้ชมเห็นข้อมูลเดียวกัน
 export const portfolioContent = {
-  name: "Modem.Studio",
+  name: "Modem",
   englishName: "PORTFOLIO",
   role: "ปัณณพร สุทธิศักดิ์",
-  availability: "เปิดรับงานตามคิว",
-  workDays: "นัดหมายล่วงหน้าเพื่อประเมินรายละเอียด",
-  about: "รับผลิตและตัดต่อวิดีโอสำหรับแบรนด์และโปรเจกต์ส่วนตัว\nเน้นการสื่อสารที่ชัดเจนและการทำงานที่เป็นระบบ",
+  availability: "19.40 - 00.00 น.",
+  workDays: "ไม่รับงานด่วน บรีฟหลัง 12.00 เริ่มงานวันถัดไป",
+  about: "รับตัดคลิป ไม่ว่าจะเป็น\nเน้นการสื่อสารที่ชัดเจนและการทำงานที่เป็นระบบ",
   avatarUrl: "/assets/profile-avatar.webp",
   meadowUrl: "/assets/footer-character.png",
   // วาง URL ติดต่อจริงในโค้ดนี้ ปุ่มจะเปิดเมื่อมี URL ที่ถูกต้อง

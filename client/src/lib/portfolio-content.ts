@@ -7,16 +7,16 @@ export const portfolioContent = {
   role: "ปัณณพร สุทธิศักดิ์",
   availability: "19.40 - 00.00 น.",
   workDays: "ไม่รับงานด่วน บรีฟหลัง 12.00 เริ่มงานวันถัดไป",
-  about: "รับตัดคลิป ไม่ว่าจะเป็น\nเน้นการสื่อสารที่ชัดเจนและการทำงานที่เป็นระบบ",
+  about: "รับตัดคลิปสั้น ลง Platform ต่าง ๆ ไม่ว่าจะเป็น Tiktok, IG, Facebook และ Youtube\nปัจจุบัน เป็น Video Creator ที่คลินิกแหน่งหนึ่งในพิษณุโลกคับ",
   avatarUrl: "/assets/profile-avatar.webp",
   meadowUrl: "/assets/footer-character.png",
   // วาง URL ติดต่อจริงในโค้ดนี้ ปุ่มจะเปิดเมื่อมี URL ที่ถูกต้อง
-  lineUrl: "",
-  facebookUrl: "",
+  lineUrl: "https://lin.ee/zQfG6WU",
+  facebookUrl: "https://web.facebook.com/pannaphorn.sutthisak",
   // เปลี่ยนรหัสนี้ใน source code; เป็นเพียงตัวควบคุมการแสดงผล ไม่ใช่ระบบรักษาความปลอดภัย
   worksTogglePassword: "2326",
-  thankYou: "ขอบคุณที่พิจารณาผลงาน",
-  thankYouDetail: "หากสนใจร่วมงาน ติดต่อเพื่อหารือรายละเอียดได้ทางช่องทางด้านล่าง",
+  thankYou: "ขอบคุณที่รับชมผลงาน",
+  thankYouDetail: "",
   videos: [
     {
       id: "work-01",

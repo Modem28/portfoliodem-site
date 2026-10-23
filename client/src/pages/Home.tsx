@@ -237,7 +237,7 @@ export default function Home() {
                 </span>
               )}
             </div>
-            {!lineUrl && !facebookUrl && <p className="contact-pending">รอร่วมงานกับพี่ ๆ อยู่นะคะ <3 </p>}
+            {!lineUrl && !facebookUrl && <p className="contact-pending">รอร่วมงานกับพี่ ๆ อยู่นะคะ </p>}
           </section>
 
           <section className="thank-you-section" aria-label="ข้อความขอบคุณ">

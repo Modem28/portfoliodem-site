@@ -12,7 +12,7 @@ export const portfolioContent = {
   meadowUrl: "/assets/footer-character.png",
   // วาง URL ติดต่อจริงในโค้ดนี้ ปุ่มจะเปิดเมื่อมี URL ที่ถูกต้อง
   lineUrl: "https://lin.ee/zQfG6WU",
-  facebookUrl: "https://web.facebook.com/pannaphorn.sutthisak",
+  facebookUrl: "https://www.facebook.com/pannaphorn.sutthisak",
   // เปลี่ยนรหัสนี้ใน source code; เป็นเพียงตัวควบคุมการแสดงผล ไม่ใช่ระบบรักษาความปลอดภัย
   worksTogglePassword: "2326",
   thankYou: "ขอบคุณที่รับชมผลงาน",

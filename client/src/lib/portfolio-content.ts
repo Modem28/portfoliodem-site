@@ -14,7 +14,7 @@ export const portfolioContent = {
   lineUrl: "https://lin.ee/zQfG6WU",
   facebookUrl: "https://www.facebook.com/pannaphorn.sutthisak",
   // เปลี่ยนรหัสนี้ใน source code; เป็นเพียงตัวควบคุมการแสดงผล ไม่ใช่ระบบรักษาความปลอดภัย
-  worksTogglePassword: "2326",
+  worksTogglePassword: "",
   thankYou: "ขอบคุณที่รับชมผลงาคับป๋ม",
   thankYouDetail: "",
   videos: [

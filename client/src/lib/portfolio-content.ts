@@ -6,8 +6,8 @@ export const portfolioContent = {
   englishName: "Modem.Studio",
   role: "ปัณณพร สุทธิศักดิ์",
   availability: "19.40 - 00.00 น.",
-  workDays: "ไม่รับงานด่วน บรีฟหลัง 12.00 เริ่มงานวันถัดไป",
-  about: "รับตัดคลิปสั้น ลง Platform ต่าง ๆ ไม่ว่าจะเป็น Tiktok, IG, Facebook และ Youtube\nปัจจุบัน เป็น Video Creator ที่คลินิกแหน่งหนึ่งในพิษณุโลกคับ",
+  workDays: "ไม่รับงานด่วน บรีฟหลัง 12.00 เริ่มงานวันถัดไปค่ะ",
+  about: "รับตัดคลิปสั้น ลง Platform ต่าง ๆ ไม่ว่าจะเป็น Tiktok, IG, Facebook และ Youtube ปัจจุบัน เป็น Video Creator ที่คลินิกแหน่งหนึ่งในพิษณุโลกคับ",
   avatarUrl: "/assets/ModemStuLOGO.png",
   meadowUrl: "/assets/footer-character.png",
   // วาง URL ติดต่อจริงในโค้ดนี้ ปุ่มจะเปิดเมื่อมี URL ที่ถูกต้อง
@@ -15,7 +15,7 @@ export const portfolioContent = {
   facebookUrl: "https://www.facebook.com/pannaphorn.sutthisak",
   // เปลี่ยนรหัสนี้ใน source code; เป็นเพียงตัวควบคุมการแสดงผล ไม่ใช่ระบบรักษาความปลอดภัย
   worksTogglePassword: "2326",
-  thankYou: "ขอบคุณที่รับชมผลงาน",
+  thankYou: "ขอบคุณที่รับชมผลงาคับป๋ม",
   thankYouDetail: "",
   videos: [
     {

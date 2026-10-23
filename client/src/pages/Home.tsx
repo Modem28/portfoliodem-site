@@ -85,7 +85,7 @@ export default function Home() {
   function handleWorksVisibilitySubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     if (!content.worksTogglePassword || togglePassword !== content.worksTogglePassword) {
-      setToggleError("รหัสผ่านไม่ถูกต้อง");
+      setToggleError("อย่าพยายามเลยพี่");
       return;
     }
 
@@ -120,7 +120,7 @@ export default function Home() {
             <div className="clock-label">
               <TimeIcon size={16} aria-hidden="true" />
               <span>{formatLocalTime(now)}</span>
-              <span className="local-time-label">เวลาท้องถิ่น</span>
+              {/* <span className="local-time-label">เวลาท้องถิ่น</span> */}
             </div>
           </div>
         </header>

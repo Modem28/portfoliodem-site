@@ -8,7 +8,7 @@ export const portfolioContent = {
   availability: "19.40 - 00.00 น.",
   workDays: "ไม่รับงานด่วน บรีฟหลัง 12.00 เริ่มงานวันถัดไป",
   about: "รับตัดคลิปสั้น ลง Platform ต่าง ๆ ไม่ว่าจะเป็น Tiktok, IG, Facebook และ Youtube\nปัจจุบัน เป็น Video Creator ที่คลินิกแหน่งหนึ่งในพิษณุโลกคับ",
-  avatarUrl: "/assets/profile-avatar.webp",
+  avatarUrl: "/assets/ModemStuLOGO.svg",
   meadowUrl: "/assets/footer-character.png",
   // วาง URL ติดต่อจริงในโค้ดนี้ ปุ่มจะเปิดเมื่อมี URL ที่ถูกต้อง
   lineUrl: "https://lin.ee/zQfG6WU",

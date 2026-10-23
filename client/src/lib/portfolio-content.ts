@@ -3,7 +3,7 @@
 // ตั้งสิทธิ์ไฟล์เป็น "ทุกคนที่มีลิงก์ — ผู้ดู" แล้วบันทึก/Build เวอร์ชันใหม่ เพื่อให้ผู้ชมเห็นข้อมูลเดียวกัน
 export const portfolioContent = {
   name: "Modem",
-  englishName: "PORTFOLIO",
+  englishName: "Modem.Studio",
   role: "ปัณณพร สุทธิศักดิ์",
   availability: "19.40 - 00.00 น.",
   workDays: "ไม่รับงานด่วน บรีฟหลัง 12.00 เริ่มงานวันถัดไป",

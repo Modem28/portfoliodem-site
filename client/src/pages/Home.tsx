@@ -17,10 +17,10 @@ import { portfolioContent as content } from "@/lib/portfolio-content";
 import { formatLocalTime, getSkyPhase } from "@/lib/portfolio-utils";
 
 const skyCopy = {
-  morning: { greeting: "พอร์ตฟอลิโอและผลงานด้านวิดีโอ", icon: Sunrise },
-  day: { greeting: "ตัวอย่างผลงานและบริการสร้างสรรค์", icon: Sun },
-  evening: { greeting: "แนวคิดและผลงานที่ผ่านมา", icon: Sunset },
-  night: { greeting: "ผลงานวิดีโอและสื่อสร้างสรรค์", icon: Moon },
+  morning: { greeting: "morning คับ! ยินดีต้อนรับสู่ Portfolio Modem.Studio", icon: Sunrise },
+  day: { greeting: "ยินดีต้อนรับสู่ Portfolio Modem.Studio คับป๋มม", icon: Sun },
+  evening: { greeting: "สวัสดีตอนเย็น ๆ คับ Portfolio Modem.Studio", icon: Sunset },
+  night: { greeting: "สวัสดีคับ ยินดีต้อนรับสู่ Portfolio Modem.Studio", icon: Moon },
 };
 
 const WORKS_VISIBILITY_STORAGE_KEY = "dayfolio:works-visibility";
@@ -108,7 +108,7 @@ export default function Home() {
       <div className="page-content">
         <header className="site-header">
           <a className="wordmark" href="#top" aria-label="กลับไปด้านบน">
-            <img src="/favicon.svg" alt="" />
+            <img src="/ModemStuLOGO.svg" alt="" />
             <span>{content.englishName}</span>
           </a>
           <nav className="main-nav" aria-label="เมนูหลัก">

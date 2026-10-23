@@ -108,7 +108,7 @@ export default function Home() {
       <div className="page-content">
         <header className="site-header">
           <a className="wordmark" href="#top" aria-label="กลับไปด้านบน">
-            <img src="/ModemStuLOGO.svg" alt="" />
+            <img src="/ModemLOgo.png" alt="" />
             <span>{content.englishName}</span>
           </a>
           <nav className="main-nav" aria-label="เมนูหลัก">

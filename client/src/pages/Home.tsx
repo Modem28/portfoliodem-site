@@ -144,27 +144,27 @@ export default function Home() {
                 </div>
               </div>
               <div className="profile-hours">
-                <span className="profile-label"><Clock3 size={14} aria-hidden="true" />สถานะการรับงาน</span>
+                <span className="profile-label"><Clock3 size={14} aria-hidden="true" />เวลาในการรับงาน</span>
                 <strong>{content.availability}</strong>
                 <p>{content.workDays}</p>
               </div>
               <div className="profile-about">
                 <span className="profile-label">ABOUT</span>
                 <p>{content.about}</p>
-                <div className="about-tags"><span>VIDEO</span><span>EDITING</span><span>STORYTELLING</span></div>
+                <div className="about-tags"><span>ตัดต่อ</span><span>ถ่ายคอนเทนต์</span><span>พากย์เสียง</span></div>
               </div>
             </div>
             <div className="little-intro">
-              <p>งานวิดีโอที่ออกแบบมาเพื่อสื่อสารเรื่องราวอย่างชัดเจน</p>
-              <a href="#works">ดูผลงาน <ArrowDown size={13} aria-hidden="true" /></a>
+              <p>งานวีดิโอด้านล่าง เป็นงานที่ลงมือทำจริง และได้ทำการขออนุญาตเจ้าของคลิปแล้วค่ะ</p>
+              {/* <a href="#works">ดูผลงาน <ArrowDown size={13} aria-hidden="true" /></a> */}
             </div>
           </section>
 
           <section id="works" className="works-section" aria-labelledby="works-title">
             <div className="section-heading">
-              <span className="small-eyebrow">PORTFOLIO / SELECTED WORK</span>
-              <h2 id="works-title">ผลงานที่ผ่านมา</h2>
-              <p>ตัวอย่างงานวิดีโอและสื่อสร้างสรรค์</p>
+              {/* <span className="small-eyebrow">PORTFOLIO / SELECTED WORK</span> */}
+              <h2 id="works-title">ผลงานของ Modem.Studio</h2>
+              {/* <p>ตัวอย่างงานวิดีโอและสื่อสร้างสรรค์</p> */}
               <div className="section-rule"><span /><b>05 PROJECTS</b><span /></div>
             </div>
             <div className="works-visibility-control">
@@ -212,35 +212,39 @@ export default function Home() {
           <section id="contact" className="contact-section" aria-labelledby="contact-title">
             <span className="small-eyebrow">CONTACT</span>
             <h2 id="contact-title">พูดคุยรายละเอียดโปรเจกต์</h2>
-            <p>ติดต่อเพื่อหารือขอบเขตงาน กำหนดเวลา และแนวทางการทำงาน</p>
+            <p>ติดต่อสอบถาม กำหนดเวลา และบรีฟงานได้ที่</p>
             <div className="contact-buttons">
               {lineUrl ? (
                 <a className="contact-button line-button" href={lineUrl} target="_blank" rel="noopener noreferrer">
-                  <MessageCircle size={19} aria-hidden="true" /><span>LINE</span><ArrowUpRight size={14} aria-hidden="true" />
+                  <MessageCircle size={19} aria-hidden="true" /><span>LINE</span>
+                  {/* <ArrowUpRight size={14} aria-hidden="true" /> */}
                 </a>
               ) : (
                 <span className="contact-button line-button contact-button-inactive" aria-disabled="true">
-                  <MessageCircle size={19} aria-hidden="true" /><span>LINE</span><ArrowUpRight size={14} aria-hidden="true" />
+                  <MessageCircle size={19} aria-hidden="true" /><span>LINE</span>
+                  {/* <ArrowUpRight size={14} aria-hidden="true" /> */}
                 </span>
               )}
               {facebookUrl ? (
                 <a className="contact-button facebook-button" href={facebookUrl} target="_blank" rel="noopener noreferrer">
-                  <FacebookMark /><span>Facebook</span><ArrowUpRight size={14} aria-hidden="true" />
+                  <FacebookMark /><span>Facebook</span>
+                  {/* <ArrowUpRight size={14} aria-hidden="true" /> */}
                 </a>
               ) : (
                 <span className="contact-button facebook-button contact-button-inactive" aria-disabled="true">
-                  <FacebookMark /><span>Facebook</span><ArrowUpRight size={14} aria-hidden="true" />
+                  <FacebookMark /><span>Facebook</span>
+                  {/* <ArrowUpRight size={14} aria-hidden="true" /> */}
                 </span>
               )}
             </div>
-            {!lineUrl && !facebookUrl && <p className="contact-pending">กำหนด URL ช่องทางติดต่อในข้อมูลโค้ดเพื่อเปิดใช้งาน</p>}
+            /* {!lineUrl && !facebookUrl && <p className="contact-pending">กำหนด URL ช่องทางติดต่อในข้อมูลโค้ดเพื่อเปิดใช้งาน</p>} */
           </section>
 
           <section className="thank-you-section" aria-label="ข้อความขอบคุณ">
             <div className="thank-you-heart" aria-hidden="true"><span /><Heart size={14} /><span /></div>
             <h2>{content.thankYou}</h2>
             <p>{content.thankYouDetail}</p>
-            <span className="handwritten-signoff">PORTFOLIO</span>
+            <span className="handwritten-signoff">Modem.Studio</span>
           </section>
         </main>
 

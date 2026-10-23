@@ -23,7 +23,7 @@ export const portfolioContent = {
       title: "งานขายเครื่องประดับ",
       description: "พูดถึงสินค้า และข้อมูลต่าง ๆ เกี่ยวกับสินค้านั้น",
       category: "VIDEO / 01",
-      driveUrl: "",
+      driveUrl: "https://drive.google.com/file/d/1kp68faKFk3WmlNu3eYirqusCMPuhpBH3/view?usp=drive_link",
       accent: "rose" as const,
     },
     {

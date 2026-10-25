@@ -860,12 +860,12 @@ button:focus-visible, a:focus-visible, select:focus-visible, input:focus-visible
 .profile-hours { border-left-style: solid; }
 .profile-about { border-left-style: solid; }
 .profile-label { color: #1a2023; font-size: 18px; font-weight: 600; letter-spacing: .2px; }
-.profile-hours strong { color: #385d67; font-size: 13px; font-weight: 600; }
-.profile-hours > p { color: #2c363b; font-size: 14px; }
+.profile-hours strong { color: #385d67; font-size: 16px; font-weight: 600; }
+.profile-hours > p { color: #384247; font-size: 14px; }
 .availability-note { display: none; }
-.profile-about > p { color: #2c363b; font-size: 14px; line-height: 1.75; }
+.profile-about > p { color: #384247; font-size: 14px; line-height: 1.75; }
 .about-tags { gap: 6px; margin-top: 10px; }
-.about-tags > span { color: #566d78; background: #f3f6f7; border: 1px solid #dfe6e9; border-radius: 4px; font-family: "Inter", "IBM Plex Sans Thai", sans-serif; font-size: 8px; letter-spacing: .5px; padding: 3px 7px; }
+.about-tags > span { color: #566d78; background: #f3f6f7; border: 1px solid #dfe6e9; border-radius: 4px; font-family: "Inter", "IBM Plex Sans Thai", sans-serif; font-size: 12px; letter-spacing: .5px; padding: 3px 7px; }
 .little-intro { padding-top: 20px; color: var(--sky-text); }
 .little-intro > p { color: #3a515d; font-family: "IBM Plex Sans Thai", sans-serif; font-size: 15px; font-weight: 500; }
 .little-intro > a { color: #55717c; font-size: 11px; }

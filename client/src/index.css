@@ -908,7 +908,7 @@ button:focus-visible, a:focus-visible, select:focus-visible, input:focus-visible
 .video-preview-copy small { color: #71818a; font-size: 10px; }
 .video-card-info { padding: 15px 5px 17px; }
 .video-card-title { color: #2d4551; font-family: "IBM Plex Sans Thai", sans-serif; font-size: 17px; font-weight: 600; margin-bottom: 4px; }
-.video-card-description { color: #687a83; font-size: 10px; }
+.video-card-description { color: #283f4a; font-size: 12px; }
 .video-action { background: #f7f9f9; border-color: #d9e1e4; color: #46636e; border-radius: 6px; font-family: "IBM Plex Sans Thai", sans-serif; font-size: 10px; }
 .video-action:hover { color: #294a57; background: #edf2f3; }
 .collection-end { color: #70818a; font-size: 10px; }
